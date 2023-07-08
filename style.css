@@ -1,0 +1,97 @@
+/* Global Css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+  padding: 10px 30px;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+.btn-outline {
+  padding: 9px 29px;
+  background-color: #fd6f0a00;
+  color: #fd6e0a;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  text-decoration: none;
+}
+.margin {
+  margin-left: 30px;
+}
+
+/* Header CSS start */
+
+header {
+  background-color: #fff8f3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+}
+nav h3 {
+  font-size: 45px;
+  font-weight: 700;
+}
+nav h3 span {
+  color: #fd6e0a;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 30px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+
+/* banner section CSS start */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.banner-inner {
+}
+.banner-inner h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+}
+.banner-inner h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.banner-inner p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  margin-right: 200px;
+}
+.banner-inner a .margin-top {
+}
+
+.banner-img {
+}
+.banner-img img {
+  width: 550px;
+}
